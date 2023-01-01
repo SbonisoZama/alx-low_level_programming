@@ -12,7 +12,7 @@ int main(void)
 	int ones = '0';
 	int tens = '0';
 
-	for (tens = '0'; tens <= '0'; tens++;)
+	for (tens = '0'; tens <= '0'; tens++)
 	{
 		for (ones = '0'; ones <= '0'; ones++)
 		{
