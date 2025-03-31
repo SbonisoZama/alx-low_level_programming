@@ -2,11 +2,11 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
- * main - Determines if a number is positive, negative, or zero.
+/**
+ * main - Entry point of the program
  *
- * @brief assign a random number to the variable n
- * each time it is executed.
+ * Description: gen random number and checks if
+ * the number is positive, negative, or zero, and prints message.
  *
  * Return: Always 0 (Success)
  */
@@ -18,11 +18,17 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 
 	if (n > 0)
-		printf("%d is positive", n);
+	{
+		printf("%d is positive\n", n);
+	}
 	else if (n == 0)
-		printf("%d is zero", n);
+	{
+		printf("%d is zero\n", n);
+	}
 	else
-		printf("%d is negative", n);
+	{
+		printf("%d is negative\n", n);
+	}
 
 	return (0);
 }
