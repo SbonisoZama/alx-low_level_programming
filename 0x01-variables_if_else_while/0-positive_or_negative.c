@@ -3,10 +3,7 @@
 #include <stdio.h>
 
 /*
- * main - Entry point of the program
- *
- * Description: gen random number and checks if
- * the number is positive, negative, or zero, and prints message.
+ * main - Determines random generated number
  *
  * Return: Always 0 (Success)
  */
