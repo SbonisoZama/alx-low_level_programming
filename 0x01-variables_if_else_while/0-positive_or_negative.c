@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
+/**
  * main - Determines random generated number
  *
  * Return: Always 0 (Success)
