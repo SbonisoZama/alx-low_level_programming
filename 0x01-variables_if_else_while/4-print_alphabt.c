@@ -7,20 +7,20 @@
  */
 int main(void)
 {
-	 char lower_case;
-	 
-	 for(lower_case = 'a'; lower_case <= 'z'; lower_case++)
-	 {
-		 if(lower_case == 'q' || lower_case == 'e')
+	char lower_case;
+
+	for (lower_case = 'a'; lower_case <= 'z'; lower_case++)
+	{
+		 if (lower_case == 'q' || lower_case == 'e')
 		 {
-			 continue;
+			continue;
 		 }
 		 
-		 putchar(lower_case);
-	 }
+		putchar(lower_case);
+	}
 	 
-	 putchar('\n');
-
-	 return (0);
+	putchar('\n');
+	
+	return (0);
 
 }
