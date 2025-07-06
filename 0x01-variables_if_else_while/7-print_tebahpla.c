@@ -1,0 +1,22 @@
+#include<stdib.h>
+#include<time.h>
+#include<stdio.h>
+
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Succes)
+ */
+int main(void)
+{
+	char c = 'z';
+
+	while (c < 'a')
+	{
+		putchar(c);
+		c++;
+	}
+
+	putchar('\n');
+
+}
