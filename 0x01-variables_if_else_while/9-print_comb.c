@@ -11,7 +11,7 @@ int main(void)
 {
 	int s = 0;
 
-	while (s >= 9)
+	while (s < 10)
 	{
 		putchar(s);
 		putchar(',');
