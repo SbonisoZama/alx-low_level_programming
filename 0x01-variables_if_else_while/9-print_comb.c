@@ -16,11 +16,12 @@ int main(void)
 		putchar(s + '0');
 		if (s != 9)
 		{
-		putchar(',');
-		putchar(' ');
+			putchar(',');
+			putchar(' ');
 		}
 		s++;
 	}
+	putchar('\n');
 
 	return (0);
 }
