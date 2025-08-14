@@ -3,19 +3,18 @@
 #include<stdio.h>
 
 /**
- * print_alphabet_x10 - printing x10 the alphabet in lowercase, follwed by a new line
+ * print_alphabet_x10 - printing x10 the alphabet in lowercase
  *
  * Return: void
  */
 void print_alphabet_x10(void)
 {
-	int i;
-	
+	int i;	
 	for (i = 0;i < 10; i++)
 	{
 		char alpha = 'a';
 		
-		while (alpha < 'z')
+		while (alpha <= 'z')
 		{
 			_putchar(alpha);
 			alpha++;
