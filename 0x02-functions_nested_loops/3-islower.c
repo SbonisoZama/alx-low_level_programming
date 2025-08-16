@@ -1,5 +1,5 @@
 #include<stdlib.h>
-#include<stdio>
+#include<stdio.h>
 #include "main.h"
 
 /**
@@ -7,7 +7,7 @@
  *
  * Return: Always 0
  */
-int _slower(int c)
+int _islower(int c)
 {
 	return ( c >= 'a' && c <= 'z');
 }
